@@ -1,0 +1,22 @@
+
+{
+    "welcome": {
+      "selectLanguage": "Selecciona un idioma"
+      
+    },
+
+    "login": {
+        "email": "Correo electrónico o usuario",
+        "password": "Contraseña",
+        "loginButton": "Acceder",
+        "guestButton": "Entrar como invitado",
+        "forgotPassword": "¿Has olvidado la contraseña?",
+        "noAccount": "¿No tienes cuenta?",
+        "register": "Regístrate",
+        "resetLanguage": "Restablecer idioma",
+        "error": "Error",
+        "fillFields": "Debes completar ambos campos",
+        "errorTitle": "Error al iniciar sesión",
+        "guestError": "Error al entrar como invitado"
+      }
+}

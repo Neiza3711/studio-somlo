@@ -1,0 +1,21 @@
+{
+    "welcome": {
+        "selectLanguage": "Select a language"
+      },
+    
+    "login": {
+      "email": "Email or username",
+      "password": "Password",
+      "loginButton": "Sign In",
+      "guestButton": "Continue as guest",    
+      "forgotPassword": "Forgot your password?",
+      "noAccount": "Don't have an account?",
+      "register": "Sign up",
+      "resetLanguage": "Reset language",
+      "error": "Error",
+      "fillFields": "You must complete both fields",
+      "errorTitle": "Login error",
+      "guestError": "Error logging in as guest"
+    }
+  }
+  
