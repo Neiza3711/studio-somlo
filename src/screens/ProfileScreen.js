@@ -164,6 +164,7 @@ export default function ProfileScreen({ navigation: navProp }) {
           <Text style={styles.cardLabel}>Email</Text>
           <Text style={styles.cardValue}>{user.email ?? '—'}</Text>
         </View>
+        {/* Mis pedidos */}
        <TouchableOpacity
         style={styles.nextButton} 
         onPress={() => navigation.navigate('Orders')}>

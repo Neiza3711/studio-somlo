@@ -1,4 +1,3 @@
-// src/components/AddToCartButton.js
 import React, { useState } from 'react';
 import { TouchableOpacity, Animated, StyleSheet, Text } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';

@@ -1,4 +1,3 @@
-// src/navigation/CustomTapBar.js
 import React, { useContext } from 'react';
 import { View, TouchableOpacity, StyleSheet } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
@@ -18,19 +17,17 @@ export default function CustomTabBar({ state, descriptors, navigation }) {
     <View style={styles.bar}>
     
           {state.routes.map((route, idx) => {
-        // 1️⃣ Ocultar el icono de Catalog y Artist siempre
+        // Oculta el icono de Catalog y Artist siempre
         if (['Catalog', 'Artist'].includes(route.name)) {
           return null;
         }
 
-        // 2️⃣ Ocultar favoritos si es invitado
+        // Oculta favoritos si es invitado
         if (route.name === 'Favorites' && isGuest) {
           return null;
         }
 
-        // 3️⃣ Ocultar carrito cuando estás en Home si así lo quieres
         if (route.name === 'Cart' && route.name === state.routes[state.index].name) {
-          // si la pestaña activa (state.index) es "Home", y route.name es "Cart", lo ocultamos
           if (state.routes[state.index].name === 'Home') {
             return null;
           }

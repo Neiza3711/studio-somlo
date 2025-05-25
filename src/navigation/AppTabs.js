@@ -1,4 +1,3 @@
-// navigation/AppTabs.js
 import React, { useContext } from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialIcons } from '@expo/vector-icons';
@@ -19,8 +18,8 @@ import { AuthContext }  from '../contexts/AuthContext';
     const isGuest = user?.isAnonymous;
     return (
         <Tab.Navigator
-        tabBar={props => <CustomTabBar {...props} />}
-        screenOptions={{
+          tabBar={props => <CustomTabBar {...props} />}
+          screenOptions={{
           headerShown: false,
           tabBarShowLabel: false,
         }}
@@ -33,15 +32,14 @@ import { AuthContext }  from '../contexts/AuthContext';
         component={CartStack} 
         options={{ tabBarButton: () => null }}
       />
-      {/* Catálogo: ruta disponible pero sin icono en la barra */}
+      {/* Catálogo */}
       <Tab.Screen
         name="Catalog"
         component={CatalogStack}
         options={{ tabBarButton: () => null }}
       />
        
-       {/* Pantalla de artista (accesible por navigation.navigate('Artist'),
-          pero sin botón en la barra de pestañas) */}
+       {/* Pantalla de artista */}
       <Tab.Screen
         name="Artist"
         component={ArtistScreen}

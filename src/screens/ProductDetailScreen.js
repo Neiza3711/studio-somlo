@@ -1,4 +1,3 @@
-// screens//ProductDetails.js
 import React, { useRef, useEffect } from 'react';
 import {
   View,

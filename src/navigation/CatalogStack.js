@@ -1,4 +1,3 @@
-// navigation//CatalogStack.js
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CatalogScreen from '../screens/CatalogScreen';
@@ -13,8 +12,8 @@ export default function CatalogStack() {
         headerTintColor: '#333',
         headerStyle: {
           backgroundColor: '#fff',
-          elevation: 0,      // Android
-          shadowOpacity: 0,  // iOS
+          elevation: 0,      
+          shadowOpacity: 0,  
         },
         headerBackTitleVisible: false,  
         headerBackTitle: '',           

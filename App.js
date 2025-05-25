@@ -1,4 +1,3 @@
-// App.js
 import React, { useContext, useState, useEffect } from 'react';
 import { SafeAreaView, StyleSheet, ActivityIndicator, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';

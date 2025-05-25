@@ -1,4 +1,3 @@
-// src/screens/CatalogScreen.js
 import React, { useContext } from 'react';
 import {
   ScrollView,
@@ -20,7 +19,7 @@ const { width: screenWidth } = Dimensions.get('window');
 const halfWidth = (screenWidth - gap * 3) / 2;
 const fullWidth = screenWidth - gap * 2;
 
-
+  {/* Información de los producto */}
 const PRODUCTS = [
   
   {

@@ -1,0 +1,39 @@
+0000000000000000000000000000000000000000 fd38c85497ee3986bca0f886450f8144c735aca8 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746007606 +0200	commit (initial): Created a new Expo app
+fd38c85497ee3986bca0f886450f8144c735aca8 d710f93b2cf2614683b500ec0fce24b3a993874f Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746179521 +0200	commit: Primer borrador con Productos y detalles
+d710f93b2cf2614683b500ec0fce24b3a993874f 0000000000000000000000000000000000000000 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746179565 +0200	Branch: renamed refs/heads/main to refs/heads/main
+d710f93b2cf2614683b500ec0fce24b3a993874f d710f93b2cf2614683b500ec0fce24b3a993874f Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746179565 +0200	Branch: renamed refs/heads/main to refs/heads/main
+d710f93b2cf2614683b500ec0fce24b3a993874f d710f93b2cf2614683b500ec0fce24b3a993874f Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746197469 +0200	checkout: moving from main to segundo-borrador
+d710f93b2cf2614683b500ec0fce24b3a993874f 3ddeab24130a7142eed118d2ac29b29fe643eaf5 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746197780 +0200	commit: Segundo borrador
+3ddeab24130a7142eed118d2ac29b29fe643eaf5 d710f93b2cf2614683b500ec0fce24b3a993874f Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746197855 +0200	checkout: moving from segundo-borrador to main
+d710f93b2cf2614683b500ec0fce24b3a993874f d710f93b2cf2614683b500ec0fce24b3a993874f Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746198121 +0200	checkout: moving from main to main
+d710f93b2cf2614683b500ec0fce24b3a993874f 3ddeab24130a7142eed118d2ac29b29fe643eaf5 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746198141 +0200	reset: moving to segundo-borrador
+3ddeab24130a7142eed118d2ac29b29fe643eaf5 3ddeab24130a7142eed118d2ac29b29fe643eaf5 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746198272 +0200	checkout: moving from main to primer-borrador
+3ddeab24130a7142eed118d2ac29b29fe643eaf5 3ddeab24130a7142eed118d2ac29b29fe643eaf5 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746198839 +0200	checkout: moving from primer-borrador to main
+3ddeab24130a7142eed118d2ac29b29fe643eaf5 3ddeab24130a7142eed118d2ac29b29fe643eaf5 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746198902 +0200	checkout: moving from main to segundo-borrador
+3ddeab24130a7142eed118d2ac29b29fe643eaf5 367c4b7fa0f4096de5771ec643f8f51284e826cc Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746203771 +0200	commit: Añadido boton de iniciar sesión en registro
+367c4b7fa0f4096de5771ec643f8f51284e826cc 3ddeab24130a7142eed118d2ac29b29fe643eaf5 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746203864 +0200	checkout: moving from segundo-borrador to main
+3ddeab24130a7142eed118d2ac29b29fe643eaf5 367c4b7fa0f4096de5771ec643f8f51284e826cc Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746203919 +0200	checkout: moving from main to segundo-borrador
+367c4b7fa0f4096de5771ec643f8f51284e826cc 3ddeab24130a7142eed118d2ac29b29fe643eaf5 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746203955 +0200	checkout: moving from segundo-borrador to main
+3ddeab24130a7142eed118d2ac29b29fe643eaf5 367c4b7fa0f4096de5771ec643f8f51284e826cc Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746203981 +0200	reset: moving to segundo-borrador
+367c4b7fa0f4096de5771ec643f8f51284e826cc 367c4b7fa0f4096de5771ec643f8f51284e826cc Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746204151 +0200	checkout: moving from main to Pruebas
+367c4b7fa0f4096de5771ec643f8f51284e826cc 95afabfc35ed9142975c481bb2b7eb581838e635 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746216673 +0200	commit: Imagen HomeScreen
+95afabfc35ed9142975c481bb2b7eb581838e635 95afabfc35ed9142975c481bb2b7eb581838e635 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746217272 +0200	checkout: moving from Pruebas to Catalogo
+95afabfc35ed9142975c481bb2b7eb581838e635 221ea3d17961fe7e05e29f71c5b826195b74f684 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746280265 +0200	commit: Catalogo implementado con perfil
+221ea3d17961fe7e05e29f71c5b826195b74f684 221ea3d17961fe7e05e29f71c5b826195b74f684 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746281083 +0200	checkout: moving from Catalogo to Detalles-Producto
+221ea3d17961fe7e05e29f71c5b826195b74f684 ac3d7f008a724e3ae09df5f17460412db61a507f Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746312057 +0200	commit: Añadido Catalogo y detalles
+ac3d7f008a724e3ae09df5f17460412db61a507f ac3d7f008a724e3ae09df5f17460412db61a507f Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746312180 +0200	checkout: moving from Detalles-Producto to Detalles-Artista
+ac3d7f008a724e3ae09df5f17460412db61a507f b2e91f2832f7baf68fb4289b50c444299ba2c14c Neiza.C.Ricaldi <neizi.3711@gmail.com> 1746316849 +0200	commit: Cambios realizados correctamente solo falta perfeccionar
+b2e91f2832f7baf68fb4289b50c444299ba2c14c b2e91f2832f7baf68fb4289b50c444299ba2c14c Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747087294 +0200	checkout: moving from Detalles-Artista to Detalle-LoginResetPassword
+b2e91f2832f7baf68fb4289b50c444299ba2c14c 6228786714646ea4cf6495548ac9c6f4002d3d98 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747087377 +0200	commit: Arreglado Eye iCon y ResetPassword
+6228786714646ea4cf6495548ac9c6f4002d3d98 6228786714646ea4cf6495548ac9c6f4002d3d98 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747314342 +0200	checkout: moving from Detalle-LoginResetPassword to CartScreen
+6228786714646ea4cf6495548ac9c6f4002d3d98 fdf927dded608077d746a138d3b864914f02a32b Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747415708 +0200	commit: Carritos añadidos falta firebase y volver a tienda
+fdf927dded608077d746a138d3b864914f02a32b b08cd7e79fa3f3206f57a6491f2419bb81c7811e Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747419206 +0200	commit: Boton atrás añadido falta efectos y Compra Firebase
+b08cd7e79fa3f3206f57a6491f2419bb81c7811e f0d7b7a6a9f45af6aeb60838dcc694f93426113f Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747420396 +0200	commit: Boton modificado solo falta Carrito de Firebase
+f0d7b7a6a9f45af6aeb60838dcc694f93426113f 007c241a35049b8500feccdb06374a2bf00be996 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747601082 +0200	commit: Carrito creado con exito falta modificar el usuario y la foto de perfil mas que David pueda ver el pedido del cliente
+007c241a35049b8500feccdb06374a2bf00be996 007c241a35049b8500feccdb06374a2bf00be996 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747665661 +0200	checkout: moving from CartScreen to DetalleFinales
+007c241a35049b8500feccdb06374a2bf00be996 201b03167d9606f8811f1c97a94fa2c42a1ce684 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747665704 +0200	commit: Ultimando deetalles falta eel index y las fotos de Favoritos
+201b03167d9606f8811f1c97a94fa2c42a1ce684 201b03167d9606f8811f1c97a94fa2c42a1ce684 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747768647 +0200	checkout: moving from DetalleFinales to MetodoPago
+201b03167d9606f8811f1c97a94fa2c42a1ce684 8d05a1afcf39bdb78d25ec104aff9e2c0a054720 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747768730 +0200	commit: Falta quitar el favoritos de los productos
+8d05a1afcf39bdb78d25ec104aff9e2c0a054720 8d05a1afcf39bdb78d25ec104aff9e2c0a054720 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747833865 +0200	checkout: moving from MetodoPago to Final
+8d05a1afcf39bdb78d25ec104aff9e2c0a054720 3da7ecd513eb562c406902a1462f6e974770192e Neiza.C.Ricaldi <neizi.3711@gmail.com> 1747833907 +0200	commit: Ya solo faltaría añadir los filtros
+3da7ecd513eb562c406902a1462f6e974770192e 201b03167d9606f8811f1c97a94fa2c42a1ce684 Neiza.C.Ricaldi <neizi.3711@gmail.com> 1748023789 +0200	reset: moving to HEAD@{3 days ago}

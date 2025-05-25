@@ -1,4 +1,3 @@
-// src/screens/CheckoutScreen.js
 import React, { useState, useContext, useEffect } from 'react';
 import {
   SafeAreaView,
@@ -78,7 +77,7 @@ export default function CheckoutScreen({ navigation }) {
   fetchAddresses();
   fetchCards();
 }, [user]);
-// Total calculado
+  // Total calculado
   const total = items.reduce((sum, i) => sum + parsePrice(i.price) * i.quantity, 0);
   const handleExpiryChange = (text) => {
   // Elimina todo lo que no sea número
@@ -98,7 +97,7 @@ export default function CheckoutScreen({ navigation }) {
   }
 
   try {
-    // Generar número de pedido único 
+    // Genera número de pedido único 
     const orderNumber = `PED-${Math.floor(100000 + Math.random() * 900000)}`; // ej: PED-245678
     const fullAddress = `${address}${apartment ? ', ' + apartment : ''}, ${postalCode}, ${city}, ${province} ${country}`;
     const orderData = {

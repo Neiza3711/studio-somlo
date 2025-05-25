@@ -42,13 +42,12 @@ export default function LoginScreen({ navigation }) {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Selector de idioma */}
+      {/* Selector de idioma - Para mejora futura (los idiomas) */}
       <TouchableOpacity style={styles.languageContainer}>
         <Text style={styles.languageText}>español (España)</Text>
         <MaterialIcons name="keyboard-arrow-down" size={20} color="#B0B0B0" />
       </TouchableOpacity>
 
-      {/* Zona central: logo + formulario */}
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
         style={styles.inner}
@@ -59,7 +58,7 @@ export default function LoginScreen({ navigation }) {
           <Text style={styles.somloLogo}>SØMLO</Text>
         </Text>
 
-        {/* Formulario */}
+        {/* Formulario de Login */}
         <View style={styles.form}>
           <TextInput
             style={styles.input}
@@ -69,7 +68,7 @@ export default function LoginScreen({ navigation }) {
             onChangeText={setEmail}
           />
 
-          {/* Contenedor de contraseña con ojo */}
+          {/* Contenedor de contraseña con ícono eye */}
           <View style={styles.passwordContainer}>
             <TextInput
               style={styles.passwordInput}

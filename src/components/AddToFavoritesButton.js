@@ -1,4 +1,3 @@
-// src/components/AddToFavoritesButton.js
 import React, { useState, useContext } from 'react';
 import { TouchableOpacity, Animated, StyleSheet } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';

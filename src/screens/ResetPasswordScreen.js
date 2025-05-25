@@ -10,7 +10,6 @@ import {
   KeyboardAvoidingView,
   Platform
 } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
 import { sendPasswordResetEmail } from 'firebase/auth';
 import { auth } from '../firebase/config';
 

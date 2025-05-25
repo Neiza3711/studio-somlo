@@ -31,17 +31,15 @@ export default function HomeScreen({ navigation }) {
           Arte y diseño funcional que transforma espacios en experiencias.
         </Text>
 
-         {/* Contenedor columna */} 
-        {/* Botón “Conócenos - Artista” */}
         <View style={styles.buttonsColumn}>
+           {/* Botón "Sobre mí-Artista David Somlo' */}
         <TouchableOpacity 
           style={styles.button} 
-          onPress={() => navigation.navigate('Artist')}
-        >
+          onPress={() => navigation.navigate('Artist')} >
           <Text style={styles.buttonText}>Sobre mí</Text>
         </TouchableOpacity>
 
-         {/* Botón "Tienda → CatalogScreen" */}
+         {/* Botón "Tienda' */}
          <TouchableOpacity
           style={styles.button}
           onPress={() => navigation.navigate('Catalog')}

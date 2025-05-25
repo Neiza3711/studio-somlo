@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator();
 export default function CartStack() {
   return (
     <Stack.Navigator>
-      {/* Tu carrito */}
+      {/* Carrito */}
       <Stack.Screen
         name="Cart"
         component={CartScreen}

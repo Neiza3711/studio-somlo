@@ -1,4 +1,3 @@
-// screens/OrdersScreen.js
 import React, { useContext, useEffect, useState } from 'react';
 import { View, Text, FlatList, StyleSheet, ActivityIndicator } from 'react-native';
 import { AuthContext } from '../contexts/AuthContext';
@@ -76,14 +75,49 @@ export default function OrdersScreen() {
 }
 
 const styles = StyleSheet.create({
-  center: { flex:1, justifyContent:'center', alignItems:'center' },
-  emptyText: { fontSize:16, color:'#666' },
-  list: { padding:16 },
-  card: { backgroundColor:'#fff', padding:12, marginBottom:12, borderRadius:8, elevation:2 },
-  orderId: { fontSize:14, fontWeight:'bold', marginBottom:4 },
-  date: { fontSize:12, color:'#888', marginBottom:8 },
-  prodRow: { flexDirection:'row', justifyContent:'space-between' },
-  prodName: { fontSize:14 },
-  prodQty: { fontSize:14, color:'#888' },
-  total: { marginTop:8, fontSize:16, fontWeight:'600' },
+  center: { 
+    flex:1, 
+    justifyContent:'center', 
+    alignItems:'center' 
+  },
+  emptyText: { 
+    fontSize:16, 
+    color:'#666' 
+  },
+  list: { 
+    padding:16 
+  },
+  card: { 
+    backgroundColor:'#fff', 
+    padding:12, 
+    marginBottom:12, 
+    borderRadius:8, 
+    elevation:2 
+  },
+  orderId: { 
+    fontSize:14, 
+    fontWeight:'bold', 
+    marginBottom:4 
+  },
+  date: { 
+    fontSize:12, 
+    color:'#888', 
+    marginBottom:8 
+  },
+  prodRow: { 
+    flexDirection:'row', 
+    justifyContent:'space-between' 
+  },
+  prodName: { 
+    fontSize:14 
+  },
+  prodQty: { 
+    fontSize:14, 
+    color:'#888' 
+  },
+  total: { 
+    marginTop:8, 
+    fontSize:16, 
+    fontWeight:'600' 
+  },
 });

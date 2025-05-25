@@ -1,4 +1,3 @@
-// src/screens/CartScreen.js
 import React, { useContext } from 'react';
 import {
   SafeAreaView,

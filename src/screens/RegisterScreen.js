@@ -1,4 +1,3 @@
-// src/RegisterScren.js
 import { doc, setDoc } from 'firebase/firestore';
 import React, { useState } from 'react';
 import { auth, db } from '../firebase/config';
@@ -107,22 +106,17 @@ export default function RegisterScreen({ navigation }) {
         <Text style={styles.nextText}>Siguiente</Text>
        </TouchableOpacity>
 
-        {/* Términos */}
+        {/* Términos que faltan implementar*/}
          <Text style={styles.terms}>
           Al pulsar Siguiente aceptarás los Términos y Condiciones
         </Text>
 
         {/* Link a Login */}
         <Text
-             style={styles.loginText}
-           onPress={() =>
-          navigation.navigate('Auth', {
-             screen: 'Login',
-              })
-              }
-            >
-           Inicia sesión
-        </Text>
+            style={styles.loginText}
+            onPress={() => navigation.navigate('Login')}>
+            Inicia sesión
+          </Text>
       </ScrollView>
     </SafeAreaView>
     

@@ -26,7 +26,7 @@ export default function SearchScreen() {
   
       <StatusBar barStyle="dark-content" />
 
-      {/* Barra de búsqueda */}
+      {/* Barra de búsqueda- futura mejora*/}
       <View style={styles.searchBar}>
         <TextInput
           style={styles.input}

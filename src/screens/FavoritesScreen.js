@@ -1,4 +1,3 @@
-// src/screens/FavoritesScreen.js
 import React, { useContext, useEffect } from 'react';
 import {
   SafeAreaView,
